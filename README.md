@@ -17,7 +17,7 @@ own — it only reads the history file and runs those binaries on click.
 ## Install
 
 ```sh
-omarchy plugin add https://github.com/<you>/omarchy-clippy.git --enable
+omarchy plugin add https://github.com/mjtiempo/omarchy-clippy.git --enable
 ```
 
 The plugin appears in the bar automatically (right section, next to the tray).
