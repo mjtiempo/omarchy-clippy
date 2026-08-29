@@ -4,6 +4,8 @@ A clipboard history picker for the Omarchy bar. The bar icon opens a popup
 list of your recent clipboard entries (text and images); click an entry to
 copy it back to the clipboard and paste it anywhere.
 
+![Clippy clipboard history panel](screenshot.png)
+
 ## Dependencies
 
 Clippy is a viewer over Omarchy's built-in clipboard history. It depends on
