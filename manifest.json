@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "mark.clippy",
+  "name": "Clippy",
+  "version": "1.0.0",
+  "author": "Mark Tiempo",
+  "license": "MIT",
+  "description": "Clipboard history picker for the Omarchy bar",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "ClipboardBar.qml"
+  },
+  "barWidget": {
+    "displayName": "Clippy",
+    "description": "Clipboard history picker",
+    "category": "Utility",
+    "allowMultiple": false
+  }
+}
