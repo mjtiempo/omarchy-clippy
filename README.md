@@ -36,20 +36,20 @@ The plugin appears in the bar automatically (right section, next to the tray).
 Move the icon to another bar section:
 
 ```sh
-omarchy bar move omarchy.clippy --section left
+omarchy bar move mark.clippy --section left
 ```
 
 Keyboard shortcut style summoning (same route the bar uses):
 
 ```sh
-omarchy-shell shell summon omarchy.clippy
-omarchy-shell shell hide omarchy.clippy
+omarchy-shell shell summon mark.clippy
+omarchy-shell shell hide mark.clippy
 ```
 
 ## Remove
 
 ```sh
-omarchy plugin remove omarchy.clippy
+omarchy plugin remove mark.clippy
 ```
 
 ## License

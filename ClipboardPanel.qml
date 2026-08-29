@@ -10,8 +10,8 @@ import qs.Ui
 // watchers do the capturing); this panel is read-only UI.
 Panel {
   id: root
-  moduleName: "omarchy.clippy"
-  ipcTarget: "omarchy.clippy"
+  moduleName: "mark.clippy"
+  ipcTarget: "mark.clippy"
   manageIpc: false
 
   property var anchorItem: null
