@@ -11,7 +11,7 @@ import qs.Ui
 // on THIS root.
 BarWidget {
   id: root
-  moduleName: "mark.clippy"
+  moduleName: "omarchy.clippy"
 
   // ---- Panel lifecycle, forwarded to the nested panel.
   readonly property bool opened: panelLoader.item ? panelLoader.item.opened === true : false
@@ -61,7 +61,7 @@ BarWidget {
   }
 
   IpcHandler {
-    target: "mark.clippy"
+    target: "omarchy.clippy"
     function open() { root.open() }
     function close() { root.close() }
     function show() { root.open() }
