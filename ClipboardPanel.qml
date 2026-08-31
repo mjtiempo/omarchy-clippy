@@ -141,6 +141,9 @@ Panel {
               text: modelData && modelData.type === "image"
                 ? "Image"
                 : (modelData ? String(modelData.text || "").trim().split("\n")[0] : "")
+              // Clipboard content is arbitrary text from any app — never let
+              // AutoText sniff it into rich text.
+              textFormat: Text.PlainText
               elide: Text.ElideRight
               maximumLineCount: 1
               color: Color.menu.text
@@ -151,6 +154,7 @@ Panel {
               Layout.fillWidth: true
               visible: modelData && (modelData.capturedAt || modelData.type === "image")
               text: modelData ? String(modelData.capturedAt || (modelData.type === "image" ? "Image" : "")) : ""
+              textFormat: Text.PlainText
               elide: Text.ElideRight
               maximumLineCount: 1
               color: Color.menu.text
